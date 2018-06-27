@@ -151,6 +151,7 @@ namespace Cielo
 
             return request;
         }
+
         private async Task<T> GetResponseAsync<T>(HttpResponseMessage response)
         {
             await CheckResponseAsync(response);
