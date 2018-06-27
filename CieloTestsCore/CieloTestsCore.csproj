@@ -18,4 +18,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cielo.Models\Cielo.Models.csproj" />
+    <ProjectReference Include="..\Cielo\Cielo.csproj" />
+  </ItemGroup>
+
 </Project>
